@@ -15,7 +15,17 @@ public class Product {
 	private Integer totalSells;
 	private CAT category;
 	
-	// Constructor
+	/**
+	 * Product constructor
+	 * @param code
+	 * @param name
+	 * @param desc
+	 * @param vat
+	 * @param price
+	 * @param stock
+	 * @param totalSells
+	 * @param category
+	 */
 	public Product(Integer code, String name, String desc, VAT vat, Double price, Integer stock, Integer totalSells,
 			CAT category) {
 		super();

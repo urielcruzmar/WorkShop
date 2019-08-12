@@ -24,7 +24,7 @@ public class ProductRepositoryImpl implements ProductRepository {
 		return true;
 		
 	}
-
+	
 	public List<Product> list() {
 
 		List<Product> allProducts = new ArrayList<Product>();
@@ -36,13 +36,13 @@ public class ProductRepositoryImpl implements ProductRepository {
 		return allProducts;
 		
 	}
-
+	
 	public List<Product> search(Integer code, String name, CAT category) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
-	public boolean modify(Integer code) {
+	public boolean modify(Integer code, Product editedProduct) {
 		// TODO Auto-generated method stub
 		return false;
 	}

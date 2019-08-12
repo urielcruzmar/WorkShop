@@ -29,8 +29,8 @@ public class ProductServiceImpl implements ProductService {
 		return productRep.search(code, name, category);
 	}
 
-	public boolean modify(Integer code) {
-		return productRep.modify(code);
+	public boolean modify(Integer code, Product editedProduct) {
+		return productRep.modify(code, editedProduct);
 	}
 
 	public boolean delete(Integer code) {
@@ -42,8 +42,7 @@ public class ProductServiceImpl implements ProductService {
 	}
 
 	public void infoSells() {
-		// TODO Auto-generated method stub
-		
+		// TODO show sells info
 	}
 
 }
